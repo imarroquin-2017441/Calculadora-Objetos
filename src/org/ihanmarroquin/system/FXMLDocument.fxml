@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="384.0" prefWidth="398.0" styleClass="AnchorPane" stylesheets="@../resource/CSSCalculadora.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.ihanmarroquin.system.FXMLDocumentController">
+    <children>
+        <Button fx:id="btnUno" layoutX="55.0" layoutY="249.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="1" />
+      <Button fx:id="btnDos" layoutX="112.0" layoutY="249.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="2" />
+      <TextField fx:id="txtPantalla" alignment="CENTER_RIGHT" editable="false" layoutX="28.0" layoutY="31.0" prefHeight="39.0" prefWidth="338.0">
+         <font>
+            <Font name="Broadway" size="21.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnTres" layoutX="168.0" layoutY="249.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="3" />
+      <Button fx:id="btnSeis" layoutX="168.0" layoutY="192.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="6" />
+      <Button fx:id="btnCinco" layoutX="112.0" layoutY="192.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="5" />
+      <Button fx:id="btnCuatro" layoutX="55.0" layoutY="192.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="4" />
+      <Button fx:id="btnSiete" layoutX="55.0" layoutY="136.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="7" />
+      <Button fx:id="btnOcho" layoutX="112.0" layoutY="136.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="8" />
+      <Button fx:id="btnNueve" layoutX="168.0" layoutY="136.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="9" />
+      <Button fx:id="btnMasMenos" layoutX="55.0" layoutY="309.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="+/-" />
+      <Button fx:id="btnCero" layoutX="112.0" layoutY="309.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button1" stylesheets="@../resource/CSSCalculadora.css" text="0" />
+      <Button fx:id="btnPunto" layoutX="168.0" layoutY="309.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" stylesheets="@../resource/CSSCalculadora.css" text=".">
+         <styleClass>
+            <String fx:value="button3" />
+            <String fx:value="button2" />
+         </styleClass></Button>
+      <Button fx:id="btnIgual" layoutX="230.0" layoutY="309.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="=" />
+      <Button fx:id="btnMas" layoutX="230.0" layoutY="249.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" stylesheets="@../resource/CSSCalculadora.css" text="+">
+         <styleClass>
+            <String fx:value="button3" />
+            <String fx:value="button2" />
+         </styleClass></Button>
+      <Button fx:id="btnMenos" layoutX="230.0" layoutY="192.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="-" />
+      <Button fx:id="btnMulti" layoutX="230.0" layoutY="136.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" stylesheets="@../resource/CSSCalculadora.css" text="*">
+         <styleClass>
+            <String fx:value="button3" />
+            <String fx:value="button2" />
+         </styleClass></Button>
+      <Button fx:id="btnDivi" layoutX="230.0" layoutY="80.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="/" />
+      <Button fx:id="btnC" layoutX="55.0" layoutY="80.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" stylesheets="@../resource/CSSCalculadora.css" text="C">
+         <styleClass>
+            <String fx:value="button3" />
+            <String fx:value="button2" />
+         </styleClass></Button>
+      <Button fx:id="btnCE" layoutX="112.0" layoutY="80.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="CE" />
+      <Button fx:id="btnPorciento" layoutX="168.0" layoutY="80.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" stylesheets="@../resource/CSSCalculadora.css" text="\%">
+         <styleClass>
+            <String fx:value="button3" />
+            <String fx:value="button2" />
+         </styleClass></Button>
+      <Button fx:id="btnXY" layoutX="293.0" layoutY="80.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" stylesheets="@../resource/CSSCalculadora.css" text="x^y">
+         <styleClass>
+            <String fx:value="button3" />
+            <String fx:value="button2" />
+         </styleClass></Button>
+      <Button fx:id="btnAbsoluto" layoutX="293.0" layoutY="136.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" styleClass="button2" stylesheets="@../resource/CSSCalculadora.css" text="abs" />
+      <Button fx:id="btnRaiz" layoutX="293.0" layoutY="192.0" onAction="#handleButtonAction" prefHeight="50.0" prefWidth="50.0" stylesheets="@../resource/CSSCalculadora.css" text="√">
+         <styleClass>
+            <String fx:value="button3" />
+            <String fx:value="button2" />
+         </styleClass></Button>
+    </children>
+</AnchorPane>

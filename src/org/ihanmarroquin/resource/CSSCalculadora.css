@@ -1,0 +1,41 @@
+.button1
+{
+    -fx-background-color: #2DDE7A;
+    -fx-background-radius:  5 5 5 5;   
+}
+
+.button1:hover
+{
+    -fx-background-color: #2195C9;
+    -fx-background-radius: 5 5 5 5; 
+}
+
+.button1:pressed
+{
+    -fx-background-color: #DCAA9F;
+    -fx-background-radius: 14 14 14 14;
+}
+
+
+.button2
+{
+    -fx-background-color: #72EECF;
+    -fx-background-radius:  5 5 5 5; 
+}
+
+.button2:hover
+{
+    -fx-background-color: #2195C9;
+    -fx-background-radius: 5 5 5 5; 
+}
+
+.button2:pressed
+{
+    -fx-background-color: #DCAA9F;
+    -fx-background-radius: 14 14 14 14;
+}
+
+.AnchorPane
+{
+    -fx-background-color: #000000;
+}
